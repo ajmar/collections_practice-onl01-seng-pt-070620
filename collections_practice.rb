@@ -52,6 +52,6 @@ end
 def add_s(arr)
   if arr[0, 1] || arr[3..20]
    arr.map {|word| word + "s"}
- else 
+ else
  end
 end
