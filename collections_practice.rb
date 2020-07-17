@@ -50,7 +50,8 @@ def sum_array(array)
 end
 
 def add_s(arr)
-  while arr[0, 1] || arr[3..20]
+  if arr[0, 1] || arr[3..20]
    arr.map {|word| word + "s"}
+ else 
  end
 end
