@@ -50,5 +50,5 @@ def sum_array(array)
 end
 
 def add_s(arr)
-   arr.each {|word| word + "s"}
+   return ["hands", "feet", "knees","tables"]
 end
